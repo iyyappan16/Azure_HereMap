@@ -54,6 +54,21 @@ All users of HERE APIs must obtain authentication and authorization credentials 
 
 To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [here](https://developer.here.com) to register for FREE with HERE.
 
+## 2. Acquiring HERE App ID and HERE App Code
+
+The below steps help you deploy HERE Maps & Locations Services Data Streams Template in your Azure resource group. 
+
+<details>
+<summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
+ 
+ 1. Click on **Get it Now** button to start the deployment process.
+
+	![HERE Maps & Location Services for Data Streams in Azure Marketplace](../ARM_Deployment/1.png)
+
+1. Ensure that **Create New Test Event** is selected.
+
+</p></details>
+
 Now choose Kubernetes Service, leave the Dockerfile path with the default value and enter `helm` on the `Path to the Chart folder` textbox.
 
 On the next screen select the appropriate values on:
