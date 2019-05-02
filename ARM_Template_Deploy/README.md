@@ -42,21 +42,17 @@ The function app in this ARM Template consists of the following HERE Location Se
 
   - Positioning - Provides positioning estimates based on global Wi-Fi and Cell coverage, which includes the latitude and longitude of the position with accuracy.
 
+
+## Deployment Guide
+
+  1.  Acquiring HERE App ID and HERE App Code
+  2.  Deploying Solution Template on Azure Portal
   
-  
+## Acquiring HERE App ID and HERE App Code
 
+All users of HERE APIs must obtain authentication and authorization credentials and provide them as values for the parameters HERE App ID and HERE App Code in the HERE Credentials section in Azure’s template deployment page. 
 
-## Create Azure DevOps Project
-
-Now it is time to create an Azure DevOps project. Browse to:
-
-- https://portal.azure.com
-
-Login with your credentials and click on `Create a resource`. Type `DevOps` and select `DevOps Project`.
-
-Now click on `Bring your own code` and click on `Next`. Select GitHub and onnect your GitHub account and select the repository that you forked above.
-
-On the next step, select `Yes` as the answer to the question `Is app Dockerized` and click next.
+To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [https://developer.here.com] here to register for FREE with HERE.
 
 Now choose Kubernetes Service, leave the Dockerfile path with the default value and enter `helm` on the `Path to the Chart folder` textbox.
 
