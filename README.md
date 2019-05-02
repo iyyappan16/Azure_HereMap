@@ -10,10 +10,10 @@ architecture and verify your work.
 
 | Module | Description |
 | ---------------- | -------------------------------------------------------- |
-| [Static Web hosting][static-web-hosting] | Deploy the static website using AWS Amplify Console by first creating a git repository (in either CodeCommit or GitHub) and then pushing the site code. |
-| [User Management][user-management] | Configure user management for the website using Amazon Cognito. |
-| [Serverless Backend][serverless-backend] | Create an AWS Lambda function that will persist data to an Amazon DynamoDB table. |
-| [RESTful APIs][restful-apis] | Expose the Lambda function via an Amazon API Gateway as a RESTful API that the static site can call. |
+| [ARM Template Deploy] | Deploy the static website using AWS Amplify Console by first creating a git repository (in either CodeCommit or GitHub) and then pushing the site code. |
+| [Data Setup] | Configure user management for the website using Amazon Cognito. |
+| [Configuration] | Create an AWS Lambda function that will persist data to an Amazon DynamoDB table. |
+| [Validation] | Expose the Lambda function via an Amazon API Gateway as a RESTful API that the static site can call. |
 
 :warning: These modules are intended to be executed linearly.
 
