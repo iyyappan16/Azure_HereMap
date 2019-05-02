@@ -10,7 +10,7 @@ architecture and verify your work.
 
 | Module | Description |
 | ------------------------- | -------------------------------------------------------- |
-| ARM Template Deploy       | The HERE Location Services Data Streams Template is a Solution Template on Azure Marketplace which deploys the HERE Maps & Location Services Data Streams into your resources along with a EventHub and CosmosDB. |
+|  [ARM Template Deploy][ARM Template Deploy]       | The HERE Location Services Data Streams Template is a Solution Template on Azure Marketplace which deploys the HERE Maps & Location Services Data Streams into your resources along with a EventHub and CosmosDB. |
 | Data Setup         | Uploading/Transfering the data's to azure. |
 | Configuration      | Configuring the requied connection strings of EventHub & CosmosDB.  |
 | Validation         | Launch the Azure Web App via browser and luanch the dashboard to veryfy the Trucks movememnts. |
@@ -85,7 +85,7 @@ Now it is time to explore Azure DevOps. Ask as many questions as you need and ma
 We have adapted the build pipelines to build and deploy the three images that compose our system into an Azure container registry. Now it is time to customize the release pipeline to use these images instead of the default ones from Docker Hub.
 
 
-[static-web-hosting]: 1_StaticWebHosting/
+[ARM Template Deploy]: ARM Template Deploy/
 [user-management]: 2_UserManagement/
 [serverless-backend]: 3_ServerlessBackend/
 [restful-apis]: 4_RESTfulAPIs/
