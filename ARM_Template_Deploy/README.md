@@ -12,12 +12,12 @@ These services address a range of use cases like Fleet Utilization, Supply Chain
 
 The function app in this ARM Template consists of the following HERE Location Service APIs:
 
-Geocoding and Search
+**Geocoding and Search
 
-  •	Geocoder: Forward and Reverse
-  •	Batch Geocoder
-  •	Geocoder Autocomplete
-  •	Places
+  -	Geocoder: Forward and Reverse
+  -	Batch Geocoder
+  -	Geocoder Autocomplete
+  -	Places
   
 Maps
 
