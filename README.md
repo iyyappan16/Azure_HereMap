@@ -1,8 +1,24 @@
-# Azure & HERE Maps Location Services and Workshop
+# HERE Maps & Location Services Data Streams On Azure Workshop
 
-This workshops shows how to deploy a fully functional existing Dockerized app (based on any technology) into Kubernetes using Azure DevOps.
+This document introduces the deployment steps for HERE Maps & Location Services Data Streams on Azure. This workshop contains four modules.
 
-This `README` assumes that you have a valid Azure subscription.
+### Modules
+
+This workshop is divided into four modules. Each module describes a scenario of
+what we're going to build and step-by-step directions to help you implement the
+architecture and verify your work.
+
+| Module | Description |
+| ---------------- | -------------------------------------------------------- |
+| [Static Web hosting][static-web-hosting] | Deploy the static website using AWS Amplify Console by first creating a git repository (in either CodeCommit or GitHub) and then pushing the site code. |
+| [User Management][user-management] | Configure user management for the website using Amazon Cognito. |
+| [Serverless Backend][serverless-backend] | Create an AWS Lambda function that will persist data to an Amazon DynamoDB table. |
+| [RESTful APIs][restful-apis] | Expose the Lambda function via an Amazon API Gateway as a RESTful API that the static site can call. |
+
+:warning: These modules are intended to be executed linearly.
+
+After you have completed the workshop you can delete all of the resources that were created by following the [cleanup guide][cleanup].
+
 
 # Configuration
 
