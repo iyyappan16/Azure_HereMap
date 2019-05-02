@@ -78,11 +78,16 @@ The below steps help you deploy HERE Maps & Locations Services Data Streams Temp
 	![Template Deployment Page -  Basic Section](ARM_Deployment/4.png)
 	
 	
+	
+	
 	![Template Deployment Page – Basic Section – Create new Resource Group](ARM_Deployment/5.png)
 	
 1. You now need to provide HERE credentials (HERE App ID and HERE App Code) which are pre-requisite to access HERE resources. If you already have HERE credentials available with you, provide the same and click **OK**. If you don’t have HERE credentials, please visit here(https://developer.here.com) to register for FREE with HERE. You also need to select a Storage option, you can either select any existing Storage or continue with a newly created one.
 
 	![Template Deployment Page – HERE Credentials Section](ARM_Deployment/6.png)
+	
+	
+	
 	
 	
 	![Template Deployment Page – Storage Selection](ARM_Deployment/7.png)
