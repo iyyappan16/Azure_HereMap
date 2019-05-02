@@ -85,8 +85,8 @@ Now it is time to explore Azure DevOps. Ask as many questions as you need and ma
 We have adapted the build pipelines to build and deploy the three images that compose our system into an Azure container registry. Now it is time to customize the release pipeline to use these images instead of the default ones from Docker Hub.
 
 
-[ARM Template Deploy]:1_ARM_Template_Deploy/
-[Data_Setup_Producer]: 2_Data_Setup_Producer/
-[Data_Setup_WebApp]: 3_Data_Setup_WebApp/
-[Validation]: 4_Validation/
+[ARM Template Deploy]:ARM_Template_Deploy/
+[Data_Setup_Producer]:Data_Setup_Producer/
+[Data_Setup_WebApp]:Data_Setup_WebApp/
+[Validation]:Validation/
 [cleanup]: 5_CleanUp/
