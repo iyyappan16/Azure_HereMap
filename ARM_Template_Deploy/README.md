@@ -1,21 +1,50 @@
 # ARM Template Deploy
 
-## Install azure CLI
+## Introduction
 
-First we need to install Azure CLI in order to operate Azure resources. This is different depending on your operating system and you can find the instructions in the following url:
+HERE Maps and Location Services Data Streams Template brings enterprise-grade, SLA backed location services to Azure applications. HERE Maps and location services solve a range of problems from map visualization, navigation and routing, geocoding, time zone look ups to geofencing, custom locations and routing, route matching GPS traces, geospatial, sequencing multiple waypoints, truck routing, positioning, etc.
 
-- https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt?view=azure-cli-latest
+## Solution Template Overview
 
-Once, you have installed Azure CLI, execute `az login` and provide your credentials.
+HERE Maps & Location Services Data Streams Template deploys HERE's enterprise class SLA backed Maps & Location Services, an EventHub and a CosmosDB for all your Azure Applications.
 
-We can use Azure CLI later on to explore the content of our AKS cluster.
+These services address a range of use cases like Fleet Utilization, Supply Chain Optimization, Urban Movement, etc., and open up new location intelligence opportunities in diverse industries like Automotive, Insurance, Internet and Media, Mobile Payments, Public Sector and Infrastructure, Telecom and Utilities, and Transportation and Logistics.
 
-## Fork GitHub project into your own account
+The function app in this ARM Template consists of the following HERE Location Service APIs:
 
-Browse the following URL:
-- https://github.com/nearform/azure-workshop
+Geocoding and Search
 
-Click on `Fork` to create a copy of the repository in your own GitHub account so that you can change the code without affecting anyone else.
+  •	Geocoder: Forward and Reverse
+  •	Batch Geocoder
+  •	Geocoder Autocomplete
+  •	Places
+  
+Maps
+
+  •	Map Image
+  •	Map Tile
+   
+Navigation and Routing
+
+  • Routing - Mode (car, truck, public transit, bicycle) and algorithm (matrix, isoline routing)
+
+Navigation and Routing
+
+  •	Considering toll costs along a route
+  •	Working with geofences
+  •	Working with custom locations
+  •	Building custom routes
+  •	Integrating advanced HERE data sets
+  •	Route matching GPS traces
+  •	Calculating an optimal sequence of waypoints
+
+Navigation and Routing
+
+  • Positioning - Provides positioning estimates based on global Wi-Fi and Cell coverage, which includes the latitude and longitude of the position with accuracy.
+
+  
+  
+
 
 ## Create Azure DevOps Project
 
