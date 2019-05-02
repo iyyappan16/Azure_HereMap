@@ -22,7 +22,7 @@ After you have completed the workshop you can delete all of the resources that w
 
 | Lessons        | Prerequisites |
 |:---------------|:-------------:|
-| [ARM Template Deploy][ARM Template Deploy] | The HERE Location Services Data Streams Template is a Solution Template on Azure Marketplace |
+| [ARM Template Deploy][ARM Template Deploy] | The HERE Location Services Data Streams Template is a Solution Template on Azure  |
 
 # ARM Template Deploy
 
