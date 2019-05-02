@@ -20,6 +20,9 @@ architecture and verify your work.
 
 After you have completed the workshop you can delete all of the resources that were created by following the [cleanup guide][cleanup].
 
+| Lessons        | Prerequisites |
+|:---------------|:-------------:|
+| [Introduction to R](https://hbctraining.github.io/Training-modules/IntroR) | None |
 
 # ARM Template Deploy
 
