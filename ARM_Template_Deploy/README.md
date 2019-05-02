@@ -48,11 +48,11 @@ The function app in this ARM Template consists of the following HERE Location Se
   1.  Acquiring HERE App ID and HERE App Code
   2.  Deploying Solution Template on Azure Portal
   
-## Acquiring HERE App ID and HERE App Code
+## 1. Acquiring HERE App ID and HERE App Code
 
 All users of HERE APIs must obtain authentication and authorization credentials and provide them as values for the parameters HERE App ID and HERE App Code in the HERE Credentials section in Azure’s template deployment page. 
 
-To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [https://developer.here.com] here to register for FREE with HERE.
+To obtain the credentials for the deployment of HERE Maps & Location Services Data Streams, please visit [here] https://developer.here.com to register for FREE with HERE.
 
 Now choose Kubernetes Service, leave the Dockerfile path with the default value and enter `helm` on the `Path to the Chart folder` textbox.
 
