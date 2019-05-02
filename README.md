@@ -20,7 +20,7 @@ architecture and verify your work.
 After you have completed the workshop you can delete all of the resources that were created by following the [cleanup guide][cleanup].
 
 
-# Configuration
+# ARM Template Deploy
 
 ## Install azure CLI
 
@@ -84,10 +84,9 @@ Now it is time to explore Azure DevOps. Ask as many questions as you need and ma
 
 We have adapted the build pipelines to build and deploy the three images that compose our system into an Azure container registry. Now it is time to customize the release pipeline to use these images instead of the default ones from Docker Hub.
 
-## Make some changes to the app and redeploy
 
-Now it is time to change the app, push the changes to GitHub and see what happens through the pipelines on Azure DevOps (https://dev.azure.com)
-
-## Use release gates/criteria to seek for manual approval before releasing
-
-We have seen how to build an artifact and release it. Now we want to configure our release pipeline to require manual releasing and seek for approval. This will require someone to manually create a release and someone else (can be the same person on this workshop) to approve the release.
+[static-web-hosting]: 1_StaticWebHosting/
+[user-management]: 2_UserManagement/
+[serverless-backend]: 3_ServerlessBackend/
+[restful-apis]: 4_RESTfulAPIs/
+[cleanup]: 9_CleanUp/
