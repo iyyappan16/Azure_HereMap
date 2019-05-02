@@ -10,10 +10,10 @@ architecture and verify your work.
 
 | Module | Description |
 | ------------------------- | -------------------------------------------------------- |
-|  [ARM Template Deploy][ARM Template Deploy]       | The HERE Location Services Data Streams Template is a Solution Template on Azure Marketplace which deploys the HERE Maps & Location Services Data Streams into your resources along with a EventHub and CosmosDB. |
-| [Data_Setup_Producer][Data Setup Producer]         | Uploading/Transfering the data's to azure. |
-| [Data_Setup_WebApp][Data Setup WebApp]      | Configuring the requied connection strings of EventHub & CosmosDB.  |
-| [4.Validation][Validation]         | Launch the Azure Web App via browser and luanch the dashboard to veryfy the Trucks movememnts. |
+|  [1. ARM Template Deploy][ARM Template Deploy]       | The HERE Location Services Data Streams Template is a Solution Template on Azure Marketplace which deploys the HERE Maps & Location Services Data Streams into your resources along with a EventHub and CosmosDB. |
+| [2. Data_Setup_Producer][Data Setup Producer]         | Uploading/Transfering the data's to azure. |
+| [3. Data_Setup_WebApp][Data Setup WebApp]      | Configuring the requied connection strings of EventHub & CosmosDB.  |
+| [4. Validation][Validation]         | Launch the Azure Web App via browser and luanch the dashboard to veryfy the Trucks movememnts. |
 
 :warning: These modules are intended to be executed linearly.
 
