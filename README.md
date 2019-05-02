@@ -85,7 +85,7 @@ Now it is time to explore Azure DevOps. Ask as many questions as you need and ma
 We have adapted the build pipelines to build and deploy the three images that compose our system into an Azure container registry. Now it is time to customize the release pipeline to use these images instead of the default ones from Docker Hub.
 
 
-[ARM Template Deploy]: ARM Template Deploy/
+[ARM Template Deploy]: ARM_Template_Deploy/
 [user-management]: 2_UserManagement/
 [serverless-backend]: 3_ServerlessBackend/
 [restful-apis]: 4_RESTfulAPIs/
