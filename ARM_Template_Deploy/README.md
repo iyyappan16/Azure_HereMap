@@ -19,28 +19,28 @@ The function app in this ARM Template consists of the following HERE Location Se
   -	Geocoder Autocomplete
   -	Places
   
-Maps
+**Maps**
 
-  •	Map Image
-  •	Map Tile
+  -	Map Image
+  -	Map Tile
    
-Navigation and Routing
+**Navigation and Routing**
 
-  • Routing - Mode (car, truck, public transit, bicycle) and algorithm (matrix, isoline routing)
+  - Routing - Mode (car, truck, public transit, bicycle) and algorithm (matrix, isoline routing)
 
-Navigation and Routing
+**Navigation and Routing**
 
-  •	Considering toll costs along a route
-  •	Working with geofences
-  •	Working with custom locations
-  •	Building custom routes
-  •	Integrating advanced HERE data sets
-  •	Route matching GPS traces
-  •	Calculating an optimal sequence of waypoints
+  -	Considering toll costs along a route
+  -	Working with geofences
+  -	Working with custom locations
+  -	Building custom routes
+  -	Integrating advanced HERE data sets
+  -	Route matching GPS traces
+  -	Calculating an optimal sequence of waypoints
 
-Navigation and Routing
+**More APIs**
 
-  • Positioning - Provides positioning estimates based on global Wi-Fi and Cell coverage, which includes the latitude and longitude of the position with accuracy.
+  - Positioning - Provides positioning estimates based on global Wi-Fi and Cell coverage, which includes the latitude and longitude of the position with accuracy.
 
   
   
