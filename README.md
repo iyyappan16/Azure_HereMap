@@ -9,7 +9,7 @@ what we're going to build and step-by-step directions to help you implement the
 architecture and verify your work.
 
 | Module        | Description |
-|:---------------|:-------------:|
+|---------------|-------------|
 | [1. ARM Template Deploy][ARM Template Deploy] | The HERE Location Services Data Streams Template is a Solution Template on Azure  |
 | [2. Data Setup Producer][Data_Setup_Producer] | Uploading the Producer setup data to azure PowerShell  |
 | [3. Data Setup WebApp][Data_Setup_WebApp] | Creating Azure web-app and uploading the setup data  |
