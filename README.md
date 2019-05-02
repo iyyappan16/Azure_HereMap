@@ -10,10 +10,10 @@ architecture and verify your work.
 
 | Module | Description |
 | ------------------------- | -------------------------------------------------------- |
-| ARM Template Deploy       | Deploy the static website using AWS Amplify Console by first creating a git repository (in either CodeCommit or GitHub) and then pushing the site code. |
-| Data Setup         | Configure user management for the website using Amazon Cognito. |
-| Configuration      | Create an AWS Lambda function that will persist data to an Amazon DynamoDB table. |
-| Validation         | Expose the Lambda function via an Amazon API Gateway as a RESTful API that the static site can call. |
+| ARM Template Deploy       | The HERE Location Services Data Streams Template is a Solution Template on Azure Marketplace which deploys the HERE Maps & Location Services Data Streams into your resources along with a EventHub and CosmosDB. |
+| Data Setup         | Uploading/Transfering the data's to azure. |
+| Configuration      | Configuring the requied connection strings of EventHub & CosmosDB.  |
+| Validation         | Launch the Azure Web App via browser and luanch the dashboard to veryfy the Trucks movememnts. |
 
 :warning: These modules are intended to be executed linearly.
 
