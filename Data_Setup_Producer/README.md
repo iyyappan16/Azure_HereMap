@@ -24,7 +24,7 @@ In this step you will download the script files from the link and then you need 
  1. Click the [link](https://github.com/iyyappan16/Azure_HereMap/blob/master/Data_Setup_Producer/Producer.zip) and download the zip file (Producer.zip) and extract it to your local machine.
 
 	
-1. Open Azure Portal home page, by signing in to your registered account
+1. Open Azure Portal home page and login with your credentials.
 
 	![HERE Maps & Location Services Data Streams](Producer/1.png)
 
@@ -74,7 +74,7 @@ In this you get the Event Hub connection string details and will configure with 
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
  
-1. Open Azure portal in the New tab by signing in to your registered account
+1. Open Azure Portal home page in New tab
 
 1. Select **All services** on the left navigational menu.
 
@@ -109,7 +109,7 @@ In this step you will configure the Event Hub details on the Producer script. Th
 <details>
 <summary><strong>Step-by-step instructions (expand for details)</strong></summary><p>
  
-1. Go back to the old window Azure Cloud shell command line
+1. Go back to the first window where Azure Cloud shell command line will be running
 
 1. Navigate to the Producer directory by executing the below command
 
