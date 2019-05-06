@@ -1,6 +1,6 @@
 # HERE Maps & Location Services Data Streams on Azure Workshop
 
-This document introduces the deployment steps for HERE Maps & Location Services Data Streams on Azure. This workshop contains four modules.<a href="http://example.com/" target="_blank">example</a>
+This document introduces the deployment steps for HERE Maps & Location Services Data Streams on Azure. This workshop contains four modules.
 
 ### Modules
 
